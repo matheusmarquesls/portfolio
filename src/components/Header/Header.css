@@ -1,0 +1,98 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: rgba(10, 10, 10, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.logo span {
+  color: var(--primary-color);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-list a {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    gap: 20px;
+  }
+
+  .nav-list a {
+    font-size: 0.85rem;
+  }
+}
+
+.language-switcher {
+  display: flex;
+  gap: 10px;
+}
+
+.flag-btn {
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 4px;
+  transition: all 0.3s ease;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-btn img {
+  width: 28px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.flag-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.flag-btn.active {
+  opacity: 1;
+  border-color: var(--primary-color);
+  background: rgba(99, 102, 241, 0.1);
+}
