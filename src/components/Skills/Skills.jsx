@@ -76,12 +76,6 @@ function Skills() {
             </div>
           </div>
         </div>
-
-        <div className="skills-bar">
-          <div className="skill-progress">
-            <div className="progress-fill" style={{ width: '85%' }}></div>
-          </div>
-        </div>
       </div>
     </section>
   )

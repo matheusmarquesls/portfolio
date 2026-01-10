@@ -30,9 +30,9 @@ function Footer() {
           <div className="footer-social">
             <h4>{t.socialNetworks}</h4>
             <div className="social-icons">
-              <a href="#" aria-label="GitHub">GitHub</a>
-              <a href="#" aria-label="LinkedIn">LinkedIn</a>
-              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="https://github.com/matheusmarquesls" aria-label="GitHub">GitHub</a>
+              <a href="https://linkedin.com/in/matheus-marques-a29187233" aria-label="LinkedIn">LinkedIn</a>
+              {/* <a href="#" aria-label="Instagram">Instagram</a> */}
             </div>
           </div>
         </div>

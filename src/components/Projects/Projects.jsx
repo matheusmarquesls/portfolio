@@ -17,7 +17,7 @@ function Projects() {
       title: t.project1Title,
       description: t.project1Desc,
       image: project1Image,
-      tags: ['Html', 'Css','React', 'Git'],
+      tags: ['Html', 'Css','JavaScript', 'Git', 'Figma', 'MySQL', 'Node.js', 'arduino'],
       link: '#',
       github: '#'
     },
@@ -26,7 +26,7 @@ function Projects() {
       title: t.project2Title,
       description: t.project2Desc,
       image: project2Image,
-      tags: ['Java', 'Spring Boot', 'MySQL'],
+      tags: ['HTML', 'CSS', 'JavaScript','Java', 'MySQL', 'Node.js', 'Docker', 'AWS' ],
       link: '#',
       github: '#'
     },
@@ -35,7 +35,7 @@ function Projects() {
       title: t.project3Title,
       description: t.project3Desc,
       image: project3Image, 
-      tags: ['React', 'Node.js', 'MongoDB'],
+      tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'MySQL'],
       link: '#',
       github: '#'
     },
@@ -44,7 +44,7 @@ function Projects() {
       title: t.project4Title,
       description: t.project4Desc,
       image: project4Image, 
-      tags: ['.NET', 'Azure', 'SQL Server'],
+      tags: ['React','Java', 'AWS', 'Docker', 'Microservices', 'Clean Architecture', 'MySQL', 'JWT', 'RabbitMQ', ' CI/CD'],
       link: '#',
       github: '#'
     },
