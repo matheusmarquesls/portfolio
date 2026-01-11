@@ -64,7 +64,7 @@ function Contact() {
             </div>
           </div>
 
-          <form className="contact-form">
+          {/* <form className="contact-form">
             <div className="form-group">
               <input type="text" placeholder={t.yourName} required />
             </div>
@@ -80,7 +80,7 @@ function Contact() {
             <button type="submit" className="btn btn-primary">
               {t.send}
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>

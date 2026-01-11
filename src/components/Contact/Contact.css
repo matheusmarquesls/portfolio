@@ -10,10 +10,9 @@
 }
 
 .contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   gap: 60px;
-  align-items: start;
+  align-items: center;
 }
 
 .contact-info h3 {
