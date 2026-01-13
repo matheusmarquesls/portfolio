@@ -18,8 +18,8 @@ function Projects() {
       description: t.project1Desc,
       image: project1Image,
       tags: ['Html', 'Css','JavaScript', 'Git', 'Figma', 'MySQL', 'Node.js', 'arduino'],
-      link: '#',
-      github: '#'
+      // link: '#',
+      github: 'https://github.com/matheusmarquesls/infinityArt'
     },
     {
       id: 2,
@@ -27,8 +27,8 @@ function Projects() {
       description: t.project2Desc,
       image: project2Image,
       tags: ['HTML', 'CSS', 'JavaScript','Java', 'MySQL', 'Node.js', 'Docker', 'AWS' ],
-      link: '#',
-      github: '#'
+      // link: '#',
+      github: 'https://github.com/Vertex-PI'
     },
     {
       id: 3,
@@ -36,8 +36,8 @@ function Projects() {
       description: t.project3Desc,
       image: project3Image, 
       tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'MySQL'],
-      link: '#',
-      github: '#'
+      // link: '#',
+      github: 'https://github.com/matheusmarquesls/Projeto_Individual'
     },
     {
       id: 4,
@@ -45,8 +45,8 @@ function Projects() {
       description: t.project4Desc,
       image: project4Image, 
       tags: ['React','Java', 'AWS', 'Docker', 'Microservices', 'Clean Architecture', 'MySQL', 'JWT', 'RabbitMQ', ' CI/CD'],
-      link: '#',
-      github: '#'
+      // link: '#',
+      github: 'https://github.com/orgs/Grupo-3-3ADSC/repositories'
     },
   ]
 
@@ -78,9 +78,6 @@ function Projects() {
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>
                 <div className="project-links">
-                  <a href={project.link} className="project-link" target="_blank" rel="noopener noreferrer">
-                    <span>🔗</span> {t.viewProject}
-                  </a>
                   <a href={project.github} className="project-link" target="_blank" rel="noopener noreferrer">
                     <span>📂</span> {t.github}
                   </a>
